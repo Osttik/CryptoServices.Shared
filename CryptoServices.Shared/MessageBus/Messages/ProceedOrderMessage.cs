@@ -1,6 +1,6 @@
 ﻿namespace CryptoServices.Shared.MessageBus.Messages
 {
-    public class ProceedOrder
+    public class ProceedOrderMessage
     {
         public Guid OrderId { get; set; }
     }
